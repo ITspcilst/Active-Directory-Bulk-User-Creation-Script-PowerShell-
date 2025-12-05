@@ -90,7 +90,7 @@ foreach ($username in $userList) {
     New-ADUser `
         -Name $username `
         -SamAccountName $username `
-        -UserPrincipalName "$username@YourDomain.com" `
+        -UserPrincipalName "$username@corp.local" `
         -AccountPassword $securePassword `
         -Enabled $true `
         -ChangePasswordAtLogon $true `
