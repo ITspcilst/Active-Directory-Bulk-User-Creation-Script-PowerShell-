@@ -15,28 +15,28 @@ This is perfect for homelabs, cybersecurity portfolios, and system administratio
 
 ---
 
-# ##📌 Requirements
+# #📌 Requirements
 
-*Windows Server or Windows 10/11 joined to a domain
-*RSAT tools installed (Active Directory PowerShell module)
-*PowerShell run as Administrator
-*AD permissions to create accounts
+* **Windows Server** or **Windows 10/11** joined to a domain
+* **RSAT**?tools installed (Active Directory PowerShell module)
+* **PowerShell** run as **Administrator**
+* **AD permissions** to create accounts
 
 ---
 
-# ##🛠 How the Script Works
+# #🛠 How the Script Works
 
 The script:
-*1.	Imports the Active Directory PowerShell module
-*2.	Reads a list of usernames
-*3.	Creates each user in a specified OU
-*4.	Sets a temporary password
-*5.	Forces password change at next logon
-*6. Adds each user to an AD group
+1. Imports the Active Directory PowerShell module
+2. Reads a list of usernames
+3. Creates each user in a specified OU
+4. Sets a temporary password
+5. Forces password change at next logon
+6. Adds each user to an AD group
 
 ---
 
-# ##📄 PowerShell Script
+# #📄 PowerShell Script
 
 ```powershell
 Import-Module ActiveDirectory
@@ -108,23 +108,23 @@ Write-Host "Finished creating all AD users."
 
 ---
 
-# ##▶️ How to Run
+# #▶️ How to Run
 	
-*1.	Clone or download this repository
-*2.	Copy the code from the README into a .ps1 file
-*3.	Edit the domain, OU, and user list as needed
-*4.	Run using:
+1. Clone or download this repository
+2. Copy the code from the README into a .ps1 file
+3. Edit the domain, OU, and user list as needed
+4. Run using:
 ```bash
 .\Create-AD-Users.ps1
 ```
 
 ---
 
-# ##📸 Screenshots
+# #📸 Screenshots
 
-![Active Directory Users Created]()
-![PowerShell Script Output]()
-![User Properties in ADUC]()
+*![Active Directory Users Created]()
+*![PowerShell Script Output]()
+*![User Properties in ADUC]()
 
 
 
