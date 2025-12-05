@@ -7,11 +7,11 @@ This is perfect for homelabs, cybersecurity portfolios, and system administratio
 
 # #🚀 Features
 
-*Bulk-create AD user accounts
-*Add **users** to a specified **AD** group
-*Force **password reset** on next logon
-*Clean, readable PowerShell script
-*Easy to customize for any **domain environment**
+* Bulk-create AD user accounts
+* Add **users** to a specified **AD** group
+* Force **password reset** on next logon
+* Clean, readable PowerShell script
+* Easy to customize for any **domain environment**
 
 ---
 
