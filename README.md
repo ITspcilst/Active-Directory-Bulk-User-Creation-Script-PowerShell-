@@ -1,11 +1,11 @@
-# Active-Directory-Bulk-User-Creation-Script-PowerShell-
+# 🛡️Active-Directory-Bulk-User-Creation-Script-PowerShell-
 
 This project demonstrates an automation script that creates multiple Active Directory user accounts, adds them to a group, and forces each user to reset their password at first logon.
 This is perfect for homelabs, cybersecurity portfolios, and system administration practice.
 
 ---
 
-# ##🚀 Features
+# #🚀 Features
 
 *Bulk-create AD user accounts
 *Add **users** to a specified **AD** group
