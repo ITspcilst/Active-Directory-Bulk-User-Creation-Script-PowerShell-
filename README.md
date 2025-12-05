@@ -66,7 +66,6 @@ $securePassword = ConvertTo-SecureString $tempPassword -AsPlainText -Force
 
 # -----------------------------------------------
 # OU where the new accounts will be created
-# EDIT THESE VALUES TO MATCH YOUR DOMAIN
 # -----------------------------------------------
 $targetOU = "OU=Users,DC=corp,DC=local"
 
