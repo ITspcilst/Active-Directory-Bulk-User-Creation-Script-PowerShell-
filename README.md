@@ -143,9 +143,9 @@ Script\Logs\creation-log.txt
 
 To provide clear evidence of the script's functionality, consider uploading screenshots demonstrating the following:
 
-![**Running the script**](Script/Screenshots/runing_the_script.png)
-![**Reading Logs file**](Script/Screenshots/reading_logs_file.png)
-![**Users are created and added to group successfully**](Script/Screenshots/users_are_added_successfully.png)
+* ![**Running the script**](Script/Screenshots/runing_the_script.png)
+* ![**Reading Logs file**](Script/Screenshots/reading_logs_file.png)
+* ![**Users are created and added to group successfully**](Script/Screenshots/users_are_added_successfully.png)
 
 
 ---
