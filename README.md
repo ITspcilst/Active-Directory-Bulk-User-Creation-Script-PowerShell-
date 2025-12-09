@@ -107,7 +107,7 @@ The primary input for the script is the **`Input/users.csv`** file. The script e
 | **LastName** | User's last name | `Doe` |
 | **DisplayName** | Full display name in AD | `John Doe` |
 | **Department** | Optional AD attribute | `IT` |
-| **Title** | Job title |
+| **Title** | Job title |  `tech` 
 | **Phone** | Phone number | `0767879801` |
 | **OU** | Distinguished Name of the OU where the account will be created | `OU=HelpDesk, DC=corp,DC=local` |
 | **Groups** | AD groups to join | Separate multiple using **`;`** (e.g., `HR;VPN_Users`) |
