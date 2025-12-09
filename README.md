@@ -82,19 +82,18 @@ The primary input for the script is the **`Input/users.csv`** file. The script e
 
 ### Example `users.csv` Entry:
 
-```csv
-SamAccountName,FirstName,LastName,DisplayName,Department,Title,Phone,OU,Groups,Domain
-fjohn,John,Frank,Frank john,IT,Tech,7745678909,"OU=HelpDesk,DC=corp,DC=local",IT-Users,corp.local
-jcatis,Jack,Catis,Catis Jack,IT,Tech,7745678916,"OU=HelpDesk,DC=corp,DC=local",IT-Users,corp.local
-laudin,Audin,Lebra,Lebra Audin,IT,Tech,7745678917,"OU=HelpDesk,DC=corp,DC=local",IT-Users,corp.local
-zsokol,Sokol,Zouplas,Zouplas Sokol,IT,Tech,7745678918,"OU=HelpDesk,DC=corp,DC=local",IT-Users,corp.local
-sadam,Adam,Smith,Smith Adam,IT,Tech,7745678919,"OU=HelpDesk,DC=corp,DC=local",IT-Users,corp.local
-hberta,Berta,Hun,Hun Berta,IT,Tech,7745678920,"OU=HelpDesk,DC=corp,DC=local",IT-Users,corp.local
-jbretham,Bretham,Joli,Joli Bretham,IT,Tech,7745678921,"OU=HelpDesk,DC=corp,DC=local",IT-Users,corp.local
-pashley,Ashley,Pako,Pako Ashley,IT,Tech,7745678922,"OU=HelpDesk,DC=corp,DC=local",IT-Users,corp.local
-klouise,Louise,Kakas,Kakas Louise,IT,Tech,7745678923,"OU=HelpDesk,DC=corp,DC=local",IT-Users,corp.local
-mnomad,Nomad,Mac,Mac Nomad,IT,Tech,7745678924,"OU=HelpDesk,DC=corp,DC=local",IT-Users,corp.local
-```
+| SamAccountName | FirstName | LastName | DisplayName | Department | Title | Phone | OU | Groups | Domain |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **fjohn** | John | Frank | Frank john | IT | Tech | 7745678909 | OU=HelpDesk,DC=corp,DC=local | IT-Users | corp.local |
+| **jcatis** | Jack | Catis | Catis Jack | IT | Tech | 7745678916 | OU=HelpDesk,DC=corp,DC=local | IT-Users | corp.local |
+| **laudin** | Audin | Lebra | Lebra Audin | IT | Tech | 7745678917 | OU=HelpDesk,DC=corp,DC=local | IT-Users | corp.local |
+| **zsokol** | Sokol | Zouplas | Zouplas Sokol | IT | Tech | 7745678918 | OU=HelpDesk,DC=corp,DC=local | IT-Users | corp.local |
+| **sadam** | Adam | Smith | Smith Adam | IT | Tech | 7745678919 | OU=HelpDesk,DC=corp,DC=local | IT-Users | corp.local |
+| **hberta** | Berta | Hun | Hun Berta | IT | Tech | 7745678920 | OU=HelpDesk,DC=corp,DC=local | IT-Users | corp.local |
+| **jbretham** | Bretham | Joli | Joli Bretham | IT | Tech | 7745678921 | OU=HelpDesk,DC=corp,DC=local | IT-Users | corp.local |
+| **pashley** | Ashley | Pako | Pako Ashley | IT | Tech | 7745678922 | OU=HelpDesk,DC=corp,DC=local | IT-Users | corp.local |
+| **klouise** | Louise | Kakas | Kakas Louise | IT | Tech | 7745678923 | OU=HelpDesk,DC=corp,DC=local | IT-Users | corp.local |
+| **mnomad** | Nomad | Mac | Mac Nomad | IT | Tech | 7745678924 | OU=HelpDesk,DC=corp,DC=local | IT-Users | corp.local |
 
 ---
 
