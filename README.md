@@ -1,4 +1,4 @@
-# 📁 Bulk Active Directory User Creation — PowerShell Automation
+# 📁 Bulk Active Directory User Creation and password reset — PowerShell Automation
 
 This project automates the creation of **Active Directory (AD) user accounts** using a CSV file, making it easy to onboard large numbers of users quickly and consistently.
 This project automates the **resetting of passwords** for multiple Active Directory (AD) users using a **CSV file**, also demonstrates practical skills in **AD automation**, **bulk operations**, **PowerShell scripting**, **secure credential handling**, and **file output management**.
