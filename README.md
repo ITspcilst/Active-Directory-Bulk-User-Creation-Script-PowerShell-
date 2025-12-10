@@ -60,7 +60,7 @@ Bulk AD user PowerShell Project
 │
 ├── Script
 │   ├── BulkADUser.ps1            # Project 1: AD User Creation
-│   ├── ResetPasswords.ps1        # Project 2: This script
+│   ├── ResetPasswords.ps1        # Project 2: Resets password only for users inside the users.csv file
 │   │
 │   ├── Input
 │   │   └── users.csv             # Contains SamAccountName list for resets
