@@ -3,7 +3,6 @@
 This project automates the creation of **Active Directory (AD) user accounts** using a CSV file, making it easy to onboard large numbers of users quickly and consistently.
 This project automates the **resetting of passwords** for multiple Active Directory (AD) users using a **CSV file**, also demonstrates practical skills in **AD automation**, **bulk operations**, **PowerShell scripting**, **secure credential handling**, and **file output management**.
 It is designed for IT administrators who need a **fast, consistent, and secure** way to reset many user passwords at once.
-The script **generates unique random passwords** for each user, **updates them in AD**, enforces **password reset at next logon**, and stores the newly generated passwords inside a **CSV file** for administrative reference.
 
 ---
 
@@ -34,7 +33,7 @@ The script reads user data from a CSV file and automatically creates each accoun
 
 ### 🔹 Security & Passwords
 
-Each user receives a **unique, randomly generated password**. The account is created with the **"password-change-on-login"** setting enabled for immediate security enforcement. Saves the unique **Passwords** into a **.csv** file.
+Each user receives a **unique, randomly generated password**. The account is created with the **"password-change-on-login"** setting enabled for immediate security enforcement.
 
 ### 🔹 Logging & Error Handling
 
@@ -69,7 +68,7 @@ Bulk AD user PowerShell Project
 │   │   └── creation-log.txt      # Logs for Project 1
 │   │
 │   └── Passwords
-│       └── passwords.csv         # Output file created by this script
+│       └── passwords.csv         # Output file created by Project 2 script
 │
 └── README.md
 ```
@@ -139,12 +138,11 @@ cd "C:\Users\Administrator\Desktop\Bulk AD user PowerShell Project\Script"
 ```
 4. Run the script:
 ```powershell
-.\BulkADUser.ps1 or .\PasswordResetScript.ps1
+.\BulkADUser.ps1
 ```
 5. Check the log output and the passwords in:
 ```text
 Script\Logs\creation-log.txt
-Script\Passwords\passwords.csv
 ```
 
 ---
@@ -155,8 +153,6 @@ To provide clear evidence of the script's functionality, consider uploading scre
 * [**Running the script**](Script/Screenshots/runing_the_script.png)
 * [**Reading Logs file**](Script/Screenshots/reading_logs_file.png)
 * [**Users are created and added to group successfully**](Script/Screenshots/users_are_added_successfully.png)
-* [**Runing the password reseting script for all AD users**](Script/Screenshots/Runing_the_script01.png)
-* [**The new Password.csv file has been created successfully**](Script/Screenshots/Password_csv_has_been_created02.png)
 
 
 ---
@@ -171,15 +167,8 @@ This project is an excellent addition to any portfolio as it showcases hands-on,
 * **Working with CSV data:** Importing, iterating, and using structured data for automation.
 * **Error handling and logging:** Implementing robust `try/catch` logic and output logging.
 * **Real-world onboarding automation workflow:** Mimics a critical IT infrastructure task.
-* **Bulk Password Reset**Reads a list of users from a CSV file and resets each user’s AD password automatically.
-* **Random Secure Password Generation**Each user receives a **strong 12-character password** containing special characters for improved security.
-* **Forced Password Change**After the reset, each account is configured to **require changing the password at next logon**, ensuring security.
-* **Automatic CSV Output of New Passwords**The script saves each user’s new credentials into:
-    ```text 
-    Passwords\passwords.csv
-    ```
 
-  ---
+---
 
 ## 📜 License
 
