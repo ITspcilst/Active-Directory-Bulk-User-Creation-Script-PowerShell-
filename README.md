@@ -127,12 +127,12 @@ The primary input for the script is the **`Input/users.csv`** file. The script e
 
 Ensure Active Directory Module for PowerShell is installed.
 
-1. Place your users.csv file inside:
+1. Place the users.csv file inside:
 ```text
 Script\Input\
 ```
 2. Open PowerShell as Administrator.
-3. Navigate to your project directory:
+3. Navigate to project directory:
 ```text
 cd "C:\Users\Administrator\Desktop\Bulk AD user PowerShell Project\Script"
 ```
@@ -149,10 +149,9 @@ Script\Logs\creation-log.txt
 
 ## 📘 Example Output (Screenshots)
 
-To provide clear evidence of the script's functionality, consider uploading screenshots demonstrating the following:
-* [**Running the script**](Script/Screenshots/runing_the_script.png)
-* [**Reading Logs file**](Script/Screenshots/reading_logs_file.png)
-* [**Users are created and added to group successfully**](Script/Screenshots/users_are_added_successfully.png)
+* **Running the script**(Script/Screenshots/runing_the_script.png)
+* **Reading Logs file**(Script/Screenshots/reading_logs_file.png)
+* **Users are created and added to group successfully**(Script/Screenshots/users_are_added_successfully.png)
 
 
 ---
