@@ -149,8 +149,13 @@ Script\Logs\creation-log.txt
 
 ## 📘 Example Output (Screenshots)
 
+### Running the script 
 ![**Running the script**](Script/Screenshots/runing_the_script.png)
+
+### Reading Logs file
 ![**Reading Logs file**](Script/Screenshots/reading_logs_file.png)
+
+### Users are created and added to the group
 ![**Users are created and added to group successfully**](Script/Screenshots/users_are_added_successfully.png)
 
 
